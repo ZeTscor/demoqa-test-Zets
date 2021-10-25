@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class FirstTest {
+public class JUnit5Exp {
 
     @BeforeEach
     static void openYandex(){
