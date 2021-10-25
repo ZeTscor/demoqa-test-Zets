@@ -10,11 +10,11 @@ import static com.codeborne.selenide.Selenide.*;
 public class FirstTest {
 
     @BeforeEach
-    void openYandex(){
+    static void openYandex(){
         open("https://yandex.ru/");
     }
     @AfterEach
-    void takeScreen(){
+    static void takeScreen(){
         System.out.println("takeScreen");
     }
     @Test
